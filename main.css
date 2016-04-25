@@ -1,0 +1,67 @@
+.container {
+  margin: 0 auto;
+  width: 768px;
+
+}
+
+header {
+  background-color: black;
+}
+
+/*el gatito dice que es un id por lo que es único para algún elemento*/
+#logo {
+  display: block;
+  margin: 0 auto;
+}
+
+.container nav {
+  background: #999999;
+  height: 30px; /*Es el alto de toda la barra nav*/
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /*overflow: hidden;*/
+    
+    /*background-color: #333;*/
+}
+
+nav li {
+    float: left;/*conforme se ingresan los elementos los va ordenando por la izquierda*/
+    /*margin: 0px 50px 0px 50px;*/
+    width: 192px; /* a cada elemento li le da un ancho de 192 que es el ancho total de 
+    la página (768) entre 4 (xq son 4 elementos)*/
+    
+}
+
+nav li a {
+    display: block;
+    color: white;
+    font-family: Helvetica;
+    text-align: center;
+    padding: 7px 20px 5px 20px;
+    text-decoration: none;
+    
+}
+
+ /*Change the link color to gris oscuro on hover */
+li a:hover {
+    background-color: #666666;
+}
+
+
+
+/*entra a la clase container y luego a la sub clase footer*/
+.container .footer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+
+}
+
+/*
+#footer p {
+  margin: 0;
+}*/
